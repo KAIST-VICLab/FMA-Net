@@ -33,7 +33,7 @@
 
 ---
 <div align="center">
-This repository is the official PyTorch implementation of "FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring". FMA-Net achieves state-of-the-art performance in joint video super-resolution and deblurring (VSRDB). 
+This repository is the official PyTorch implementation of "FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring". FMA-Net achieves state-of-the-art performance in joint video super-resolution and deblurring (VSRDB). <br>
 </div>
 
 <div style="width: 100%; text-align: center; margin:auto;">
