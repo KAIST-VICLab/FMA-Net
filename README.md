@@ -2,9 +2,9 @@
 <h2>FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring</h2>
 
 <div>    
-    <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Geunhyuk Youk<sup>1</sup></a>&nbsp;
-    <a href='https://sites.google.com/view/ozbro/' target='_blank'>Jihyong Oh<sup>† 2</sup></a>&nbsp;
-    <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Munchurl Kim<sup>† 1</sup></a>
+    <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Geunhyuk Youk</a><sup>1</sup>&nbsp;
+    <a href='https://sites.google.com/view/ozbro/' target='_blank'>Jihyong Oh</a><sup>† 2</sup>&nbsp;
+    <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Munchurl Kim<sup></a>† 1</sup>
 </div>
 <div>
     <sup>†</sup>Co-corresponding authors</span>
