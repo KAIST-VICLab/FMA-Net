@@ -33,9 +33,9 @@
 
 ---
 <div align="center">
-    <h5>
+    <h4>
         This repository is the official PyTorch implementation of "FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring". FMA-Net achieves state-of-the-art performance in joint video super-resolution and deblurring (VSRDB).
-    </h5>
+    </h4>
 </div>
 
 <div style="width: 100%; text-align: center; margin:auto;">
@@ -43,9 +43,9 @@
 </div>
 
 <div align="center">
-    <h5>
+    <h4>
         Please visit our <a href="https://kaist-viclab.github.io/fmanet-site/" target='_blank'>project page</a> for more visual results.
-    </h5>
+    </h4>
 </div>
 
 </div>
@@ -53,6 +53,6 @@
 ## 🎬 Network Architecture
 ![overall_structure](assets/network.png)
 
-<h5>
+<h4>
     Codes and pretrained models will be updated soon.
-</h5>
+</h4>
