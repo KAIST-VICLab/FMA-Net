@@ -27,7 +27,7 @@
         <a href="https://www.youtube.com/watch?v=kO7KavOH6vw" target='_blank'>
         <img src="https://img.shields.io/badge/Demo%20Video-%23FF0000.svg?logo=YouTube&logoColor=white">
         </a>
-        <img alt="GitHub Org's stars" src="https://img.shields.io/github/stars/KAIST-VICLab%2FFMA-Net">
+        <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KAIST-VICLab/FMA-Net">
     </h4>
 </div>
 
