@@ -38,6 +38,7 @@
     </h4>
 </div>
 
+
 <div style="width: 100%; text-align: center; margin:auto;">
     <img style="width:100%" src="assets/result.png">
 </div>
@@ -56,3 +57,18 @@
 <h4>
     Codes and pretrained models will be updated soon.
 </h4>
+
+---
+<!-- **Reference**:   -->
+## Reference
+> Geunhyuk Youk, Jihyong Oh† and Munchurl Kim† "FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring", _arXiv_, 2024. 
+(†: Co-corresponding authors) 
+```BibTeX
+@article{youk2024fmanet,
+  author    = {Geunhyuk Youk and Jihyong Oh and Munchurl Kim},
+  title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
+  journal   = {arXiv preprint arXiv:2401.03707},
+  year      = {2024},
+ }
+```
+---
