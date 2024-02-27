@@ -62,7 +62,7 @@
 ---
 
 #### News
-- **Feb 27, 2024:** FMA-Net accepted at CVPR 2022 :tada: 
+- **Feb 27, 2024:** FMA-Net accepted at CVPR 2024 :tada: 
 - **Jan 14, 2024:** This repository is created
 
 ---
