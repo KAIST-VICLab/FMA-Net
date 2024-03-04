@@ -68,13 +68,11 @@
 ---
 <!-- **Reference**:   -->
 ## Reference
-> Geunhyuk Youk, Jihyong Oh† and Munchurl Kim† "FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring", _arXiv_, 2024. 
-(†: Co-corresponding authors) 
 ```BibTeX
 @article{youk2024fmanet,
   author    = {Geunhyuk Youk and Jihyong Oh and Munchurl Kim},
   title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
-  journal   = {arXiv preprint arXiv:2401.03707},
+  booktitle = {CVPR},
   year      = {2024},
  }
 ```
