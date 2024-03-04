@@ -69,7 +69,7 @@
 <!-- **Reference**:   -->
 ## Reference
 ```BibTeX
-@article{youk2024fmanet,
+@inproceedings{youk2024fmanet,
   author    = {Geunhyuk Youk and Jihyong Oh and Munchurl Kim},
   title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
   booktitle = {CVPR},
