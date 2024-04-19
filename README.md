@@ -44,7 +44,7 @@
 </div>
 
 ## 📧 News
-- **Apr 05, 2024:** FMA-Net is selected for an ORAL presentation at CVPR 2024 (3.3% of the 2719 accepted papers)
+- **Apr 05, 2024:** FMA-Net is selected for an ORAL presentation at CVPR 2024 (0.78% of 11,532 valid submissions) :tada:
 - **Feb 27, 2024:** FMA-Net accepted to CVPR 2024 :tada:
 - **Jan 14, 2024:** This repository is created
 
