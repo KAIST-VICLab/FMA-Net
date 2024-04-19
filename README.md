@@ -111,7 +111,7 @@ python main.py --test_custom --config_path experiment.cfg
 Please visit our [project page](https://kaist-viclab.github.io/fmanet-site/) and [demo video](https://www.youtube.com/watch?v=kO7KavOH6vw) for diverse visual results.
 
 ## License
-The source codes including the checkpoint can be freely used for research and education only. Any commercial use should get formal permission from the pricipal investigator (Prof. Munchurl Kim, mkimee@kaist.ac.kr).
+The source codes including the checkpoint can be freely used for research and education only. Any commercial use should get formal permission from the principal investigator (Prof. Munchurl Kim, mkimee@kaist.ac.kr).
 
 ## Acknowledgement
 This work was supported by the Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT): No. 2021-0-00087, Development of high-quality conversion technology for SD/HD low-quality media and No. RS2022-00144444, Deep Learning Based Visual Representational Learning and Rendering of Static and Dynamic Scenes.
