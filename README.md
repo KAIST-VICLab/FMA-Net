@@ -87,7 +87,7 @@ If you find FMA-Net useful, please consider citing:
 > - Generate RAFT pseudo-GT optical flow: run ./preprocessing/generage_flow.py (or download the optical flow from [here]())
 
 ## Pretrained Model
-Pre-trained models can be downloaded from [here](https://www.dropbox.com/scl/fi/9isbs2kivrn7p6vstxzl0/FMA-Net_REDS.zip?rlkey=6jb061u6wdllo7qdqvo98piy5&st=nqso64x1&dl=0).
+Pre-trained model can be downloaded from [here](https://www.dropbox.com/scl/fi/9isbs2kivrn7p6vstxzl0/FMA-Net_REDS.zip?rlkey=6jb061u6wdllo7qdqvo98piy5&st=nqso64x1&dl=0).
 * *FMA-Net_REDS.zip*: trained on REDS dataset.
 
 ## Training
