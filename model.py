@@ -596,6 +596,7 @@ class Net_R(torch.nn.Module):
 
         return output, warped_X, anchor
 
+
 class FMANet(torch.nn.Module):
     def __init__(self, config):
         super(FMANet, self).__init__()
