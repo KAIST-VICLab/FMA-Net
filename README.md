@@ -79,7 +79,7 @@ If you find FMA-Net useful, please consider citing:
 
 ## Requirements
 > - Python 3.9, PyTorch >= 1.9.1
-> - Platforms: Ubuntu 22.04, cuda-11.8
+> - Platforms: Ubuntu 22.04, cuda 11.8
 
 ## Data Preprocessing
 > - Download [REDS](https://seungjunnah.github.io/Datasets/reds.html) dataset
