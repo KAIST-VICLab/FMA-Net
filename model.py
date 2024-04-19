@@ -14,10 +14,10 @@ def to_4d(x, h, w):
     return rearrange(x, 'b (h w) c -> b c h w', h=h, w=w)
 
 
-class FlowGuidedDynamicDownsampling(torch.nn.Module):
-    # flow-guided dynamic filtering for downsampling
+class DynamicDownsampling(torch.nn.Module):
+    # dynamic filtering for downsampling
     def __init__(self, kernel_size, stride):
-        super(FlowGuidedDynamicDownsampling, self).__init__()
+        super(DynamicDownsampling, self).__init__()
         # stride = downsampling scale factor
         self.kernel_size = kernel_size
         self.stride = stride
@@ -63,10 +63,10 @@ class FlowGuidedDynamicDownsampling(torch.nn.Module):
         return x
 
 
-class FlowGuidedDynamicUpampling(torch.nn.Module):
-    # flow-guided dynamic filtering for upsampling
+class DynamicUpampling(torch.nn.Module):
+    # dynamic filtering for upsampling
     def __init__(self, kernel_size, scale):
-        super(FlowGuidedDynamicUpampling, self).__init__()
+        super(DynamicUpampling, self).__init__()
         # stride = downsampling scale factor
         self.kernel_size = kernel_size
         self.scale = scale
@@ -552,7 +552,7 @@ class Net_R(torch.nn.Module):
                                      nn.Conv3d(3 * num_flow, 3, kernel_size=[1, 3, 3], padding=[0, 1, 1], stride=1, bias=bias))
 
         self.bwarp = ImageBWarp(1, num_seq)
-        self.duf = FlowGuidedDynamicUpampling(us_kernel_size, scale)
+        self.duf = DynamicUpampling(us_kernel_size, scale)
 
         # generate anchor for TA loss
         self.a_conv = nn.Sequential(nn.Conv3d(dim, dim, kernel_size=[1, 3, 3], padding=[0, 1, 1], stride=1, bias=bias),
@@ -588,8 +588,9 @@ class Net_R(torch.nn.Module):
         f_X = self.f_conv2(f)
         _, warped_X = self.bwarp(x, f_X)
         f_X = self.f_conv3(torch.cat([f, warped_X, x[:, :, T // 2:T // 2 + 1, :, :].repeat([1, 1, T, 1, 1])], dim=1))
-        _, warped_X = self.bwarp(x, f_X)
 
+        # flow-guided dynamic upsampling
+        _, warped_X = self.bwarp(x, f_X)
         output = self.duf(warped_X, KR) + res
         anchor = self.a_conv(F)
 
@@ -602,7 +603,7 @@ class FMANet(torch.nn.Module):
         self.stage = config.stage
         self.degradation_learning_network = Net_D(config)
         self.bwarp = ImageBWarp(config.scale, config.num_seq)
-        self.ddf = FlowGuidedDynamicDownsampling(config.ds_kernel_size, config.scale)
+        self.ddf = DynamicDownsampling(config.ds_kernel_size, config.scale)
 
         if self.stage == 2:
             self.restoration_network = Net_R(config)
@@ -616,6 +617,7 @@ class FMANet(torch.nn.Module):
         F, KD, f_Y, f, anchor_D = self.degradation_learning_network(x)
 
         if y is not None:
+            # flow-guided dynamic downsampling
             ones, warped_Y = self.bwarp(y, f_Y)
             recon = self.ddf(warped_Y, KD, ones)
 
