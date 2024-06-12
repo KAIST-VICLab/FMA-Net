@@ -2,7 +2,7 @@
 <h2>FMA-Net (CVPR 2024 Oral)</h2>
 
 <div>    
-    <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Geunhyuk Youk</a><sup>1</sup>&nbsp;
+    <a href='https://sites.google.com/view/geunhyukyouk/' target='_blank'>Geunhyuk Youk</a><sup>1</sup>&nbsp;
     <a href='https://sites.google.com/view/ozbro/' target='_blank'>Jihyong Oh</a><sup>† 2</sup>&nbsp;
     <a href='https://www.viclab.kaist.ac.kr/' target='_blank'>Munchurl Kim</a><sup>† 1</sup>
 </div>
