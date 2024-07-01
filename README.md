@@ -59,12 +59,14 @@
 ## Reference
 If you find FMA-Net useful, please consider citing:
 ```BibTeX
-@inproceedings{youk2024fmanet,
-  author    = {Geunhyuk Youk and Jihyong Oh and Munchurl Kim},
-  title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
-  booktitle = {CVPR},
-  year      = {2024},
- }
+@InProceedings{Youk_2024_CVPR,
+    author    = {Youk, Geunhyuk and Oh, Jihyong and Kim, Munchurl},
+    title     = {FMA-Net: Flow-Guided Dynamic Filtering and Iterative Feature Refinement with Multi-Attention for Joint Video Super-Resolution and Deblurring},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {44-55}
+}
 ```
 
 ## Contents
